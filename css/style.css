@@ -1,0 +1,82 @@
+:root {
+	--btn-color: linear-gradient(#a4bc46, #85a019);
+	--heading-color: #363958;
+	--text-color: #3e3e3e;
+	--shadow: 0 2em 1em 0 rgba(0, 0, 0, 0.05);
+}
+
+header {
+	background-color: #fffbf0;
+}
+
+.logo {
+	max-width: 15em;
+	height: auto;
+}
+
+h1,
+h2,
+h5 {
+	color: var(--heading-color);
+}
+
+.top-banner h1 {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.orange-txt {
+	color: orange;
+}
+.top-banner .orange-txt {
+	margin-right: 6rem;
+}
+
+.top-banner p {
+	color: var(--text-color);
+	margin: 2em 0;
+}
+
+.buy-btn {
+	border: none;
+	border-radius: 0.5em;
+	background-image: var(--btn-color);
+	padding: 1em 2em;
+	color: white;
+	font-weight: bold;
+}
+
+.product-card {
+	height: 30em;
+	padding: 0.8em;
+	border-radius: 20px;
+	box-shadow: var(--shadow);
+}
+
+.product-card p {
+	color: var(--text-color);
+}
+
+.card-img-container img {
+	height: 100%;
+	width: auto;
+	margin: 0 auto;
+}
+
+.card-img-container {
+	height: 50%;
+	background-color: #f1f1f1;
+	padding: 1em;
+	border-radius: 20px;
+}
+
+.product-card-footer {
+	border: none;
+	background: none;
+}
+
+.services {
+	box-shadow: 2px 13px 36px 0px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: 2px 13px 36px 0px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 2px 13px 36px 0px rgba(0, 0, 0, 0.05);
+}
