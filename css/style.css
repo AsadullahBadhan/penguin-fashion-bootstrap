@@ -2,7 +2,7 @@
 	--btn-color: linear-gradient(#a4bc46, #85a019);
 	--heading-color: #363958;
 	--text-color: #3e3e3e;
-	--shadow: 0 2em 1em 0 rgba(0, 0, 0, 0.05);
+	--shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 header {
@@ -23,6 +23,10 @@ h5 {
 .top-banner h1 {
 	font-size: 3em;
 	font-weight: bold;
+}
+
+.nav-link {
+	font-weight: 600;
 }
 
 .orange-txt {
@@ -79,4 +83,8 @@ h5 {
 	box-shadow: 2px 13px 36px 0px rgba(0, 0, 0, 0.05);
 	-webkit-box-shadow: 2px 13px 36px 0px rgba(0, 0, 0, 0.05);
 	-moz-box-shadow: 2px 13px 36px 0px rgba(0, 0, 0, 0.05);
+}
+
+.service-logo {
+	width: 80px;
 }
